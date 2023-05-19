@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search by Steam ID</title>
+    <script src="main3.js"></script>
+    <style>
+        body{
+            background-image: url(https://t4.ftcdn.net/jpg/03/10/22/61/360_F_310226137_fnA5DMcupto2Ja9gaLqKttXm5E5aCyei.jpg);
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: repeat-y;
+            color:bisque;
+        }
+        img{
+            width: 340px;
+            height: 220px;
+        }
+        #sname{
+            text-align: center;
+        }
+        a{
+            font-size: x-large;
+            color: aqua;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 40px;
+        }
+        ::placeholder{
+            font-size: 17px;
+            
+        }
+        button{
+            font-size:  large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enter Steam ID of game you want to search</h1>
+    <p>
+    <input id="gname" type="text" value=""></input><br>
+    <!-- <input type="button" onclick="name1(this.form)" value="submit" > -->
+    <button id="submit" type="button" onclick="name1()" onclick="document.location.reload()">submit</button>
+    </p>
+    <div id="sname">
+        
+    </div>
+    
+</body>
+</html>
